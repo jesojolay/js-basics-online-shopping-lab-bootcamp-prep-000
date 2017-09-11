@@ -79,14 +79,14 @@ function removeFromCart(item) {
         if (cart[i].hasOwnProperty(item)) {
             delete cart[i][keys[i]];
             return cart;
-        }else {
+        }else  {
             console.log("That item is not in your cart.");
 
         }
     }
 
 }
-console.log(removeFromCart("pancake batter"));
+console.log(removeFromCart("eggs"));
 
 function placeOrder(cardNumber) {
     // write your code here
