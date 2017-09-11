@@ -68,7 +68,7 @@ function total() {
     }
     return sum;
 }
-console.log(total());
+total();
 function removeFromCart(item) {
     // write your code here
     var keys = [];
@@ -99,4 +99,5 @@ function placeOrder(cardNumber) {
         console.log(`Your total cost is $${total}, which will be charged to the card ${cardNumber}.`);
     }
 }
+
 placeOrder(3442432434534);
