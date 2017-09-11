@@ -56,7 +56,7 @@ function viewCart() {
         }
     }
 }
-var total = 0;
+var sum = 0;
 function total() {
     // write your code here
     var keys = [];
@@ -64,9 +64,9 @@ function total() {
         keys.push(String(Object.keys(cart[i])));
     }
     for (var i = 0; i < cart.length; i++) {
-        total += cart[i][keys[i]];
+        sum += cart[i][keys[i]];
     }
-    return total;
+    return sum;
 }
 
 function removeFromCart(item) {
@@ -92,7 +92,7 @@ function removeFromCart(item) {
 total();
 function placeOrder(cardNumber) {
     // write your code here
-    
+
     if (cardNumber === undefined) {
         console.log("Sorry, we don't have a credit card on file for you.");
     }else{
