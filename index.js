@@ -56,11 +56,11 @@ function viewCart() {
         }
     }
 }
-
+var total = 0;
 function total() {
     // write your code here
     var keys = [];
-    var total = 0;
+    
     for (var i = 0; i < cart.length; i++) {
         keys.push(String(Object.keys(cart[i])));
     }
