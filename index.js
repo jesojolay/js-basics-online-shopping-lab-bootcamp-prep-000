@@ -53,7 +53,6 @@ var sum =0;
 function total() {
     // write your code here
     var keys = [];
-    var sum = 0;
     for (var i = 0; i < cart.length; i++) {
         keys.push(String(Object.keys(cart[i])));
     }
@@ -62,7 +61,7 @@ function total() {
     }
     return sum;
 }
-
+total();
 
 function removeFromCart(item) {
     // write your code here
