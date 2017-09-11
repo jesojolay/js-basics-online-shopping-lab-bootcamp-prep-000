@@ -18,7 +18,6 @@ function addToCart(item) {
     console.log(`${item} has been added to your cart.`);
     return cart;
 }
-// { "bananas": 17 }, { "pancake batter": 5 }, { "eggs": 49 }
 function viewCart() {
     // write your code here
     var keys = [];
