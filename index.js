@@ -85,6 +85,9 @@ function removeFromCart(item) {
             falsi= false;
         }
     }
+    if (falsi === false) {
+        
+    }
 }
 console.log(removeFromCart("eggs"));
 
