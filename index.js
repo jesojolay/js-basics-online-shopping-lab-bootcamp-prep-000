@@ -84,7 +84,7 @@ function removeFromCart(item) {
         }
     }
 }
-removeFromCart();
+removeFromCart("eggs");
 
 function placeOrder(cardNumber) {
     // write your code here
