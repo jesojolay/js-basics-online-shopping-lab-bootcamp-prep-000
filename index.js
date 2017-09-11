@@ -49,7 +49,7 @@ function viewCart() {
         }
     }
 }
-
+var sum =0;
 function total() {
     // write your code here
     var keys = [];
