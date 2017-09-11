@@ -103,4 +103,4 @@ function placeOrder(cardNumber) {
     }
 }
 
-placeOrder(3442432434534);
+
