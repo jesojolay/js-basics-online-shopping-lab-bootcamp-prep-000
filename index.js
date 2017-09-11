@@ -61,7 +61,7 @@ function total() {
     }
     return sum;
 }
-total();
+console.log(total());
 
 function removeFromCart(item) {
     // write your code here
