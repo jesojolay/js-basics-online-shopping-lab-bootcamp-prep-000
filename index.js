@@ -100,9 +100,7 @@ function placeOrder(cardNumber) {
         console.log("Sorry, we don't have a credit card on file for you.");
     } else {
         console.log(`Your total cost is $${sum}, which will be charged to the card ${cardNumber}.`);
-        for (var i = 0; i <=cart.length; i++) {
-            cart.shift();
-        }
+        cart =[];
     }
     console.log(cart);
 }
