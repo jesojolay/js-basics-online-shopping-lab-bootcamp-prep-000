@@ -98,3 +98,4 @@ function placeOrder(cardNumber) {
         console.log("credit card recived");
     }
 }
+placeOrder();
