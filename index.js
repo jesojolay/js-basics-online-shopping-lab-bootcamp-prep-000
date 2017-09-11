@@ -93,3 +93,4 @@ function placeOrder(cardNumber) {
         return cart =[];
     }
 }
+ console.log(placeOrder(2132321321))
