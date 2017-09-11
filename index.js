@@ -60,7 +60,6 @@ var total = 0;
 function total() {
     // write your code here
     var keys = [];
-    
     for (var i = 0; i < cart.length; i++) {
         keys.push(String(Object.keys(cart[i])));
     }
