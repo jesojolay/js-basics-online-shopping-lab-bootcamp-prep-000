@@ -68,7 +68,7 @@ function total() {
     }
     return sum;
 }
-
+console.log(total());
 function removeFromCart(item) {
     // write your code here
     var keys = [];
@@ -89,7 +89,7 @@ function removeFromCart(item) {
         return cart;
     }
 }
-total();
+
 function placeOrder(cardNumber) {
     // write your code here
 
