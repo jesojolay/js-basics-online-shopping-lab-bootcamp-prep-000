@@ -84,7 +84,7 @@ function removeFromCart(item) {
         }
     }
 }
-
+removeFromCart();
 
 function placeOrder(cardNumber) {
     // write your code here
