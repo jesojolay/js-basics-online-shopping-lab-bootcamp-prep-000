@@ -52,6 +52,7 @@ function viewCart() {
 var sum = 0;
 
 function total() {
+    var sum = 0;
     // write your code here
     var keys = [];
     for (var i = 0; i < cart.length; i++) {
