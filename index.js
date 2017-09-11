@@ -1,4 +1,4 @@
-var cart = [];
+var cart = [{ "bananas": 17 }, { "pancake batter": 5 }, { "eggs": 49 }];
 
 function getCart() {
     return cart;
