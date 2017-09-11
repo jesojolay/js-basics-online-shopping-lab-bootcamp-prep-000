@@ -57,6 +57,7 @@ function viewCart() {
     }
 }
 var sum = 0;
+
 function total() {
     // write your code here
     var keys = [];
@@ -69,19 +70,21 @@ function total() {
     return sum;
 }
 total();
+
 function removeFromCart(item) {
     // write your code here
     var keys = [];
     var falsi = false;
     for (var i = 0; i < cart.length; i++) {
         keys.push(String(Object.keys(cart[i])));
-    }for (var i = 0; i < cart.length; i++) {
+    }
+    for (var i = 0; i < cart.length; i++) {
         if (cart[i].hasOwnProperty(item)) {
-             cart.splice(i,1);
-             var falsi = true;
+            cart.splice(i, 1);
+            var falsi = true;
             return cart;
-        }else{
-            falsi= false;
+        } else {
+            falsi = false;
         }
     }
     if (falsi === false) {
@@ -95,7 +98,7 @@ function placeOrder(cardNumber) {
 
     if (cardNumber === undefined) {
         console.log("Sorry, we don't have a credit card on file for you.");
-    }else{
+    } else {
         console.log(`Your total cost is $${total}, which will be charged to the card ${cardNumber}.`);
     }
 }
