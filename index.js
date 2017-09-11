@@ -87,10 +87,10 @@ function removeFromCart(item) {
     }
     if (falsi === false) {
         console.log("That item is not in your cart.");
-        
+
     }
 }
-console.log(removeFromCart("eggs"));
+console.log(removeFromCart("red"));
 
 function placeOrder(cardNumber) {
     // write your code here
