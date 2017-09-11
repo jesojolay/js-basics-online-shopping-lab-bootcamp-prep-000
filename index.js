@@ -61,8 +61,7 @@ function total() {
     }
     return sum;
 }
-console.log(total());
-console.log(sum);
+
 function removeFromCart(item) {
     // write your code here
     var keys = [];
