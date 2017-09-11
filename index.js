@@ -90,7 +90,7 @@ function removeFromCart(item) {
         return cart;
     }
 }
-console.log(removeFromCart("red"));
+console.log(removeFromCart("eggs"));
 
 function placeOrder(cardNumber) {
     // write your code here
