@@ -104,6 +104,5 @@ function placeOrder(cardNumber) {
             cart[i].pop();
         }
     }
-    return cart;
 }
 placeOrder(12312321321);
