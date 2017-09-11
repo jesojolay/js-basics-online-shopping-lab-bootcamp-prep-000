@@ -98,4 +98,4 @@ function placeOrder(cardNumber) {
         console.log("credit card recived");
     }
 }
-placeOrder();
+placeOrder(3442432434534);
