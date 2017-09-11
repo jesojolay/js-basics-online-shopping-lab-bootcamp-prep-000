@@ -69,7 +69,7 @@ function total() {
     }
     return sum;
 }
-total();
+console.log(total());
 
 function removeFromCart(item) {
     // write your code here
@@ -102,5 +102,3 @@ function placeOrder(cardNumber) {
         console.log(`Your total cost is $${total}, which will be charged to the card ${cardNumber}.`);
     }
 }
-
-
