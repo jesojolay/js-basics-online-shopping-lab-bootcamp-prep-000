@@ -69,7 +69,7 @@ function total() {
     }
     return sum;
 }
-console.log(total());
+
 
 function removeFromCart(item) {
     // write your code here
