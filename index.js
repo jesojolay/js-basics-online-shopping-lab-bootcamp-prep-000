@@ -75,16 +75,13 @@ function removeFromCart(item) {
     var keys = [];
     for (var i = 0; i < cart.length; i++) {
         keys.push(String(Object.keys(cart[i])));
-    }
-    for (var i = 0; i < cart.length; i++) {
+    }for (var i = 0; i < cart.length; i++) {
         if (cart[i].hasOwnProperty(item)) {
-            delete cart[i][item];
-            console.log(cart);
-        } else {
-            console.log("That item is not in your cart.");
+            delete cart[i][keys[i]];
             return cart;
         }
     }
+    
 }
 console.log(removeFromCart("eggs"));
 
