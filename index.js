@@ -79,7 +79,7 @@ function removeFromCart(item) {
         if (cart[i].hasOwnProperty(item)) {
              cart.splice(i,1);
             return cart;
-        }else{
+        }else if (!cart[i].hasOwnProperty(item)){
             console.log("That item is not in your cart.");
         }
     }
