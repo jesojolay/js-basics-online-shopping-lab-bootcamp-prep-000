@@ -80,7 +80,6 @@ function removeFromCart(item) {
             delete cart[i][keys[i]];
             return cart;
         }
-        
     }
 
 }
