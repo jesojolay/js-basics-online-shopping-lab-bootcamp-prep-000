@@ -102,4 +102,3 @@ function placeOrder(cardNumber) {
         return cart =[];
     }
 }
-placeOrder(12312321321);
