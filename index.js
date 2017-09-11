@@ -49,10 +49,11 @@ function viewCart() {
         }
     }
 }
-var sum =0;
+
 function total() {
     // write your code here
     var keys = [];
+    var sum =0;
     for (var i = 0; i < cart.length; i++) {
         keys.push(String(Object.keys(cart[i])));
     }
@@ -93,4 +94,4 @@ function placeOrder(cardNumber) {
         return cart =[];
     }
 }
- console.log(placeOrder(2132321321))
+ 
