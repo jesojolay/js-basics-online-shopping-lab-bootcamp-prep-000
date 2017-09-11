@@ -77,7 +77,7 @@ function removeFromCart(item) {
         keys.push(String(Object.keys(cart[i])));
     }for (var i = 0; i < cart.length; i++) {
         if (cart[i].hasOwnProperty(item)) {
-             cart.slice(i);
+             cart.splice(i,1);
             return cart;
         }
     }
